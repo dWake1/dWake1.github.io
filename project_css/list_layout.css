@@ -1,0 +1,168 @@
+@charset"utf-8";
+
+/*
+   Author: Dalton Wakefield   
+   Date:  12/29/2022 
+   
+   Filename: list_layout.css
+
+*/
+
+
+
+/* HTML and Body Styles */
+html { 
+	background-color:rgb(179, 179, 179);
+	font-family: cursive;	
+}
+
+
+/* Heading Styles */
+
+header {
+	text-align: center;
+	font-size: 5.5em;
+	width: 100%;
+	color:rgb(255, 208,0 );
+	text-shadow: black 2px 2px 2px,black 2px -2px 2px,
+				black -2px 2px 2px,black -2px -2px 2px, white 7px 7px 7px ;  
+	background-image: linear-gradient(black,rgb(0, 10, 100),black);
+	padding-top: 20px  ;
+	padding-bottom: 100px;
+		}
+
+
+
+body{
+	background-color: black;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	max-width: 1250px;
+	min-width: 375px;
+	border-left: 1px solid black;
+	border-right:black 1px solid black;
+	box-shadow:black -10px 0 10px, black 10px 0 10px ;
+	justify-content: center;
+	padding-bottom: 2em;
+	padding-top: 2em;
+}
+
+
+
+ul.where{
+	list-style: none;
+	padding-bottom: 5%;
+	width: 100%;
+ }
+ 
+ nav.links li {
+	width: 23.75%;
+	margin: auto;
+	/* border: rgb(78, 78, 78) solid 1px; */
+	
+ }
+ 
+ .links a:hover{
+	color: red;
+ }
+ 
+ nav.links li {
+	display: block;
+	float: left;
+	align-items: center;
+ }
+ 
+ nav.links a{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: rgb(161, 161, 161);
+ }
+
+
+
+nav.menu{
+	text-align: center;
+}
+
+/* Navigation Styles */	
+nav.menu a:link, nav.menu a:visited{
+	color: rgb(204, 204, 204);
+	text-decoration: none;
+	font-size: 2.0em;
+} 
+
+/* nav.horizontal a:hover, nav.horizontal a:active */
+nav.menu a:hover, nav.menu a:active{
+	color: black;
+	text-shadow: rgb(250,233,0) 1px 1px 5px,
+					rgb(250,233,0)-1px -1px 5px;
+							
+	text-decoration: wavy;
+}
+
+
+/* List Styles */
+
+li{
+	list-style-type:none;
+}
+
+
+/* Footer Styles */
+
+footer{
+	
+	color: white;
+	text-align: center;
+	position: relative;
+	padding-top: 10em;
+	bottom: 0;
+	left: 0;
+	width:100%;
+}
+
+
+.webs {
+	background-color: black;
+	color:rgb(204, 204, 204);
+	font-family: cursive;	
+	border: none;font-size: 2.0em;
+	cursor: pointer;
+  }
+  
+  .drop {
+	position: relative;
+	display: inline-block;
+  }
+  
+  .inside {
+	display: none;
+	position: absolute;
+	background-color: black;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  .inside a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  
+  
+  .drop:hover .inside {
+	display: block;
+  }
+  
+  .drop:hover .webs {
+	color: black;
+	text-shadow: rgb(250,233,0) 1px 1px 5px,
+					rgb(250,233,0)-1px -1px 5px;
+							
+	text-decoration: wavy;
+  }

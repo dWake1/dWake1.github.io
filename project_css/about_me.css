@@ -1,0 +1,192 @@
+/*
+  
+   Author: Dalton Wakefield
+   Date:   12/30/2022
+   Filename: about_me.css
+
+*/
+*{
+   margin:0;
+}
+
+
+/* HTML and Body Styles */
+
+html { 
+	background-color:rgb(179, 179, 179);
+	font-family: cursive;	
+}
+
+
+/* Heading Styles */
+
+header{
+   
+   text-align: center;
+   text-shadow: rgb(255, 255, 255) 2px 2px 5px;
+   font-family: cursive;
+   font-size:5em ;
+   width: 100%;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin-bottom: 0; 
+   color:rgb(255, 208,0 );
+   text-shadow: black 2px 2px 2px,black 2px -2px 2px,
+               black -2px 2px 2px,black -2px -2px 2px, white 7px 7px 7px ;  
+   background-image: linear-gradient(black,rgb(0, 10, 100),black);
+}
+
+body{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   background-color: black;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 50px;
+   max-width: 1250px;
+   min-width: 375px;
+   border-left: 1px solid black;
+   border-right:black 1px solid black;
+   box-shadow:black -10px 0 10px, black 10px 0 10px ;
+   justify-content: center;
+   padding-bottom: 2em;
+   padding-top: 2em;
+   color: white;
+}
+      
+
+
+/* p{
+   padding-bottom: 50px;
+   padding-left: 20px;
+   padding-right: 20px;
+} */
+
+
+
+/* Aside and Blockquote Styles */
+
+
+
+
+
+/* Navigation Styles */	
+nav{font-size: 14pt;
+}
+ul{
+   list-style: none;
+   padding-bottom: 5%;
+   width: 100%;
+}
+
+body > nav.horizontal li {
+   
+   width: 23.75%;
+   margin: auto;
+   /* border: rgb(78, 78, 78) solid 1px; */
+   
+}
+
+.horizontal a:hover{
+   color: red;
+}
+
+nav.horizontal li {
+   display: block;
+   float: left;
+   align-items: center;
+}
+
+nav.horizontal a{
+   display: block;
+   text-align: center;
+   text-decoration: none;
+   color: rgb(161, 161, 161);
+   
+}
+
+
+
+/* table Styles */
+
+table{
+   color: white;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   width: 95%;
+   margin-left: auto;
+   margin-right: auto;
+   border-collapse: collapse;
+   border: 5px solid rgba(7, 7, 7, 0.2);
+   text-align: center;
+   box-shadow:  white 0px 0px 20px ;
+   
+     
+   
+}
+
+table.myStuff th, table.myStuff td{
+   border: 3px solid black;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+
+col#firstCol {
+   background: rgba(255, 171, 171,0.35);
+   width: 10%
+}
+
+col#secondCol {
+   background: rgba(241, 204, 123,0.35);
+   width: 28.3%
+}
+
+col#thirdCol {
+   background: rgba(180, 180, 255,0.35);
+   width: 28.3%
+}
+col#fourthCol {
+   background: rgba(192, 255, 197,0.35);
+   width: 28.3%
+}
+
+table > thead{
+   color: black;
+   background: rgba(207, 207, 207);
+   font-size: 1.1em;
+   text-transform: uppercase;
+  
+}
+
+
+/* Footer Styles */
+
+footer {
+   padding-top: 5em;
+   padding-bottom: 1em;
+   color:rgb(255, 208,0);
+   width: 100%;
+   text-align: center;
+   width:100%;
+}
+
+
+
+img{
+   border-radius: 25px;
+}
+
+.responsive {
+   width: 100%;
+   height: auto;
+}
+video{
+   height: auto;
+   width:100%;
+   border-radius: 25px;
+}
+
+
+
+
+
+
