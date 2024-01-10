@@ -60,6 +60,7 @@ ul.where{
 	list-style: none;
 	padding-bottom: 5%;
 	width: 100%;
+	
  }
  
  nav.links li {
@@ -113,6 +114,8 @@ nav.menu a:hover, nav.menu a:active{
 
 li{
 	list-style-type:none;
+	color:rgb(161, 161, 161);
+	
 }
 
 
