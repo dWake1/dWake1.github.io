@@ -49,9 +49,12 @@ body{
 	justify-content: center;
 	padding-bottom: 2em;
 	padding-top: 2em;
+	color: grey;
 }
 
-
+h1{
+	font-size: 1.25em;
+}
 
 ul.where{
 	list-style: none;
