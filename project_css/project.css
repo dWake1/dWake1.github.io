@@ -12,12 +12,13 @@
 
 html{
    font-family: Georgia, 'Times New Roman', Times, serif;
-   
 }
- body{
+
+body{
    margin: 0;
    background-color: rgb(179, 179, 179);
    padding-bottom: 100px;
+   max-width: 1550px;
  }
 
  .intro{

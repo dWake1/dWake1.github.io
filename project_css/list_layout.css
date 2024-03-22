@@ -7,19 +7,23 @@
    Filename: list_layout.css
 
 */
-
-
-
-/* HTML and Body Styles */
-html { 
-	background-color:rgb(179, 179, 179);
-	font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-
-/* Heading Styles */
-
-header {
+*{
+	margin:0;
+ }
+ 
+ 
+ /* HTML and Body Styles */
+ 
+ html { 
+	 background-color:rgb(179, 179, 179);
+	 font-family: Georgia, 'Times New Roman', Times, serif;	
+ }
+ 
+ 
+ /* Heading Styles */
+ 
+ header{
+	
 	text-align: center;
 	text-shadow: rgb(255, 255, 255) 2px 2px 5px;
 	font-family: cursive;
@@ -32,16 +36,15 @@ header {
 	text-shadow: black 2px 2px 2px,black 2px -2px 2px,
 				black -2px 2px 2px,black -2px -2px 2px, white 7px 7px 7px ;  
 	background-image: linear-gradient(black,rgb(0, 10, 100),black);
-		}
-
-
-
-body{
-	background-color: black;
+ }
+ 
+ body{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	background-color: rgb(0, 0, 0);
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 50px;
-	max-width: 1250px;
+	max-width: 1550px;
 	min-width: 375px;
 	border-left: 1px solid black;
 	border-right:black 1px solid black;
@@ -49,89 +52,66 @@ body{
 	justify-content: center;
 	padding-bottom: 2em;
 	padding-top: 2em;
-	color:rgb(161, 161, 161);
-}
-
-h1{
-	font-size: 1.25em;
-	color:rgb(161, 161, 161);
-}
-
-ul.where{
-	list-style: none;
-	padding-bottom: 5%;
-	width: 100%;
+	color: white;
+		
+ }
+	   
+ 
+ 
+ 
+ /* Navigation Styles */	
+ nav{font-size: 14pt;
+ }
+ ul{
 	
+	list-style: none;
+	padding-bottom: 2%;
+	width: 100%;
+ }
+
+ H1{
+font-size: 12pt;
+
  }
  
- nav.links li {
+ body > nav.horizontal li {
+	
 	width: 23.75%;
 	margin: auto;
 	/* border: rgb(78, 78, 78) solid 1px; */
 	
  }
  
- .links a:hover{
+ .horizontal a:hover{
 	color: red;
  }
  
- nav.links li {
+ nav.horizontal li {
 	display: block;
 	float: left;
 	align-items: center;
  }
  
- nav.links a{
+ nav.horizontal a{
 	display: block;
 	text-align: center;
 	text-decoration: none;
 	color: rgb(161, 161, 161);
+	
  }
+ 
 
 
 
-nav.menu{
+footer {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	color:rgb(255, 255, 255);
+	width: 100%;
 	text-align: center;
-}
-
-/* Navigation Styles */	
-nav.menu a:link, nav.menu a:visited{
-	color: rgb(204, 204, 204);
-	text-decoration: none;
-	font-size: 2.0em;
-} 
-
-/* nav.horizontal a:hover, nav.horizontal a:active */
-nav.menu a:hover, nav.menu a:active{
-	color: black;
-	text-shadow: rgb(250,233,0) 1px 1px 5px,
-					rgb(250,233,0)-1px -1px 5px;
-							
-	text-decoration: wavy;
-}
-
-
-/* List Styles */
-
-li{
-	list-style-type:none;
-	color:rgb(161, 161, 161);
-	
-}
-
-
-/* Footer Styles */
-
-footer{
-	
-	color: white;
-	text-align: center;
-	position: relative;
-	padding-top: 10em;
-	bottom: 0;
-	left: 0;
 	width:100%;
-}
+ }
+ 
 
 
 .webs {

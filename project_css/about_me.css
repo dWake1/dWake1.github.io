@@ -42,7 +42,7 @@ body{
    margin-left: auto;
    margin-right: auto;
    padding-top: 50px;
-   max-width: 1250px;
+   max-width: 1550px;
    min-width: 375px;
    border-left: 1px solid black;
    border-right:black 1px solid black;
@@ -53,19 +53,6 @@ body{
    color: white;
 }
       
-
-
-/* p{
-   padding-bottom: 50px;
-   padding-left: 20px;
-   padding-right: 20px;
-} */
-
-
-
-/* Aside and Blockquote Styles */
-
-
 
 
 
@@ -117,7 +104,7 @@ table{
    border-collapse: collapse;
    border: 5px solid rgba(7, 7, 7, 0.2);
    text-align: center;
-   box-shadow:  white 0px 0px 0px ;
+   box-shadow:  white 0px 0px 10px ;
    
      
    

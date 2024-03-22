@@ -17,7 +17,26 @@ html {
    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+header{
+   
+   text-align: center;
+   text-shadow: rgb(255, 255, 255) 2px 2px 5px;
+   font-family: cursive;
+   font-size:5em ;
+   width: 100%;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin-bottom: 0; 
+   color:rgb(255, 208,0 );
+   text-shadow: black 2px 2px 2px,black 2px -2px 2px,
+               black -2px 2px 2px,black -2px -2px 2px, white 7px 7px 7px ;  
+   background-image: linear-gradient(black,rgb(0, 10, 100),black);
+}
 
+
+/* Navigation Styles */	
+nav{font-size: 14pt;
+}
 ul{
    list-style: none;
    padding-bottom: 5%;
@@ -25,6 +44,7 @@ ul{
 }
 
 body > nav.horizontal li {
+   
    width: 23.75%;
    margin: auto;
    /* border: rgb(78, 78, 78) solid 1px; */
@@ -54,85 +74,48 @@ body {
    margin-left: auto;
    margin-right: auto;
    padding-top: 50px;
-   max-width: 1250px;
+   max-width: 1550px;
    min-width: 400px;
    border-left: 1px solid black;
    border-right:black 1px solid black;
    box-shadow:black -10px 0 10px, black 10px 0 10px ;
    justify-content: center;
+   color: aliceblue;
 
 }
 
-article{
-   font-size: x-large ;
-   color: white;
-   text-align: center;
-   
+
+.responsive {
+   width: 100%;
+   max-width:480px;
+   height: auto;
 }
 
 
-
-details > summary {
-   list-style: none;
-   position: relative;
-  
- }
- details > summary::-webkit-details-marker {
-   margin: auto;
-   display: none;
-   position: absolute;
- }
 
 section {
    display: flex;
+   color: aliceblue;
    flex-flow: row wrap;
    width: 95%;
    margin: auto;
    align-items: center;
+   li {list-style-type: none;};
+
    
 }
 
 .pictures{
    margin:auto;
    box-shadow: white -10 0 2px;
-}
-
-.pictures:hover{
-   cursor:grab;
-   opacity: 90%;
-}
-
-.drop{
-   font-size: large;
-   display: flex;
-   width: 100%;
-   gap: 1rem;
-   margin: 10px;
-   padding-top: 5px;
-   border: 2px dashed rgb(255, 208,0);
-   border-spacing: 1rem;
-   text-align: center;
-   align-items: center;
+   border: 5px solid rgb(65, 63, 63);
 }
 
 
-header{
 
-   
-   text-align: center;
-   text-shadow: rgb(255, 255, 255) 2px 2px 5px;
-   font-family: cursive;
-   font-size:5em ;
-   width: 100%;
-   padding-top: 10px;
-   padding-bottom: 10px;
-   margin-bottom: 0; 
-   color:rgb(255, 208,0 );
-   text-shadow: black 2px 2px 2px,black 2px -2px 2px,
-               black -2px 2px 2px,black -2px -2px 2px, white 7px 7px 7px ;  
-   background-image: linear-gradient(black,rgb(0, 10, 100),black);
-    
-}
+
+
+
 
 
 footer {
@@ -144,11 +127,7 @@ footer {
    width:100%;
 }
 
-@media (max-width: 960px){
-   .drop {
-      flex-direction: column;
-   }
-}
+
 
 a:hover{
    color: red;
